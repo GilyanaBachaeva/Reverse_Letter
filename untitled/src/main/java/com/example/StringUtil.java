@@ -5,7 +5,10 @@ public final class StringUtil {
     }
 
     public static String reverseLetters(String str) {
-        if (str == null || str.isEmpty()) {
+        if (str == null) {
+            return null;
+        }
+        if (str.isEmpty()) {
             return "";
         }
 
